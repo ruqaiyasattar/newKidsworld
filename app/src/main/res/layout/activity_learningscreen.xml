@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.learningscreen.MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/polka_dots" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/learning" />
+
+    <LinearLayout
+        android:id="@+id/linearlayout_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="140dp">
+
+        <Button
+            android:id="@+id/button1_abc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/custom_imagebutton"
+            android:paddingTop="7dp"
+            android:paddingBottom="7dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:layout_marginLeft="45dp"
+            android:drawableBottom="@drawable/abc"
+            android:text="ALPHABETS"
+            android:textStyle="bold"
+            android:fontFamily="casual"
+            android:textSize="15dp" />
+
+
+
+
+        <Button
+            android:id="@+id/button2_numbers"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/custom_imagebutton"
+            android:paddingTop="17dp"
+            android:paddingBottom="17dp"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="85dp"
+            android:drawableBottom="@drawable/numbers"
+            android:text="NUMBERS"
+            android:textStyle="bold"
+            android:fontFamily="casual"
+            android:textSize="15dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearlayout_2"
+        android:layout_below="@id/linearlayout_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="100dp">
+
+        <Button
+            android:id="@+id/button3_colors"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/custom_imagebutton"
+            android:paddingTop="15dp"
+            android:paddingBottom="19dp"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:layout_marginLeft="45dp"
+            android:drawableBottom="@drawable/colors"
+            android:text="COLORS"
+            android:textStyle="bold"
+            android:fontFamily="casual"
+            android:textSize="15dp"/>
+
+        <Button
+            android:id="@+id/button4_urdu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/custom_imagebutton"
+            android:paddingTop="12dp"
+            android:paddingBottom="9dp"
+            android:paddingLeft="9dp"
+            android:paddingRight="9dp"
+            android:layout_marginLeft="85dp"
+            android:drawableBottom="@drawable/urdu"
+            android:text="URDU"
+            android:textStyle="bold"
+            android:fontFamily="casual"
+            android:textSize="15dp"/>
+
+    </LinearLayout>
+</RelativeLayout>
+
